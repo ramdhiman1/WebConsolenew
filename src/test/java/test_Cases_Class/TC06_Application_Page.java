@@ -31,7 +31,6 @@ public class TC06_Application_Page extends Base_Page {
 		comapp.getInstalledAppVersion();
 
 		// Get The Installed Apps Version
-
 		String InstalledAppsVersion = comapp.getInstalledAppVersion();
 
 		Assert.assertNotNull(InstalledAppsVersion, "Installed App Version should not be Null");

@@ -91,8 +91,7 @@ public class Base_Page {
 	DateTimeFormatter formatter;
 	String formattedDateTime;
 	
-	@BeforeTest
-	
+	@BeforeTest	
 	@Epic("EP001")
 	@Step("Setup WebDriver for browser: {br}")
 	@Severity(SeverityLevel.CRITICAL)

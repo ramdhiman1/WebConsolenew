@@ -10,7 +10,6 @@
 	<test thread-count="5" name="chrome">
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
-		
 		        
 		
 		<classes>
