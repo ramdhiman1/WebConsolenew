@@ -152,7 +152,6 @@ public class Base_Page {
 			}
 
 			// browser
-
 			switch (br.toLowerCase()) {
 			case "chrome":
 				capabilities.setBrowserName("chrome");
