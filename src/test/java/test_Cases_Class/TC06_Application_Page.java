@@ -102,6 +102,7 @@ public class TC06_Application_Page extends Base_Page {
 		driver.get().get(p.getProperty("applicationspageURL"));
 		cuapps.CustomAppsColumn();
 		cuapps.clickOnCustomApp();
+		
 		// Get the version after uninstall
 		String InstalledAppsVersion = cuapps.getInstalledAppVersion();
 
@@ -121,6 +122,7 @@ public class TC06_Application_Page extends Base_Page {
 		boolean result = dcuapps.deleteCustomApplication();
 		Assert.assertTrue(result, "Custom application was not deleted.");
 		// dcuapps.ClickonDonebutton();
+		
 	}
 
 	@Test(priority = 7, groups = {"smoke", "Regression"} ,description = "Created a custom script under the Applications section and verified that the script was added successfully.")
