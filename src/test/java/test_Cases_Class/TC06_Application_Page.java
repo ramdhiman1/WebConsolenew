@@ -164,7 +164,6 @@ public class TC06_Application_Page extends Base_Page {
 		sc.checkfirestrow1();
 
 	}  
-
 	@Test(priority = 9, groups = { "smoke", "Regression" }, description = "Delete custom script from the grid and verify script should be deleted")
 	public void deleteCustomScript() {
 
@@ -174,5 +173,6 @@ public class TC06_Application_Page extends Base_Page {
 		Assert.assertTrue(result, "Script failed to delete");
 		System.out.println("Script deletion test completed.");
 	}
+	
 
 }
