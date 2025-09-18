@@ -29,7 +29,6 @@ public class TC06_Application_Page extends Base_Page {
 		comapp.clickonCommpress();
 		comapp.clickonCommpress1();
 		comapp.getInstalledAppVersion();
-
 		// Get The Installed Apps Version
 		String InstalledAppsVersion = comapp.getInstalledAppVersion();
 
@@ -103,7 +102,6 @@ public class TC06_Application_Page extends Base_Page {
 		driver.get().get(p.getProperty("applicationspageURL"));
 		cuapps.CustomAppsColumn();
 		cuapps.clickOnCustomApp();
-
 		// Get the version after uninstall
 		String InstalledAppsVersion = cuapps.getInstalledAppVersion();
 
